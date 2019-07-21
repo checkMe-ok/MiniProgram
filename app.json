@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/account/account"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#ffff555",
+    "navigationBarTitleText": "微信接口演示功能",
+    "navigationBarTextStyle":"black"
+  }
+}
