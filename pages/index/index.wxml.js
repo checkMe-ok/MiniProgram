@@ -1,4 +1,4 @@
-// pages/account/account.js
+// pages/index/index.wxml.js
 Page({
 
   /**
