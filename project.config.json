@@ -4,15 +4,16 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-		"autoAudits": false
+		"autoAudits": false,
+		"checkInvalidKey": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.0.4",
+	"libVersion": "2.8.0",
 	"appid": "wxbf97ab13f2b774c0",
 	"projectname": "%E6%B5%8B%E8%AF%95%E6%A1%88%E4%BE%8B1",
 	"debugOptions": {
