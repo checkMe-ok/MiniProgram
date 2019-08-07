@@ -10,10 +10,18 @@
 		"minified": true,
 		"newFeature": true,
 		"autoAudits": false,
-		"checkInvalidKey": true
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"enhance": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.8.0",
+	"libVersion": "2.7.7",
 	"appid": "wxbf97ab13f2b774c0",
 	"projectname": "%E6%B5%8B%E8%AF%95%E6%A1%88%E4%BE%8B1",
 	"debugOptions": {

@@ -1,30 +1,38 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/account/accoount"
+    "pages/account/accoount",
+    "pages/buycar/buycar"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff5777",
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "首页展示",
-    "backgroundColor": "orange",
+    "navigationBarTitleText": "首页",
+    "backgroundColor": "#eeeeee",
     "backgroundTextStyle": "light",
-    "enablePullDownRefresh": false 
+    "enablePullDownRefresh": false
   },
+  "sitemapLocation": "sitemap.json",
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/account/accoount",
+        "pagePath": "pages/index/index",
         "text": "首页",
-        "iconPath": "tabbar/class_2.png",
-        "selectedIconPath": "tabbar/class_1.png"
-      },{
+        "iconPath": "resource/tabbar/index_1.png",
+        "selectedIconPath": "resource/tabbar/index_2.png"
+      },
+      {
         "pagePath": "pages/account/accoount",
         "text": "分类",
-        "iconPath": "tabbar/class_2.png",
-        "selectedIconPath": "tabbar/class_1.png"
+        "iconPath": "resource/tabbar/class_1.png",
+        "selectedIconPath": "resource/tabbar/class_2.png"
+      },
+      {
+        "pagePath": "pages/buycar/buycar",
+        "text": "分类",
+        "iconPath": "resource/tabbar/buycar_1.png",
+        "selectedIconPath": "resource/tabbar/buycar_2.png"
       }
-    ]  
-  },
-  "sitemapLocation": "sitemap.json"
+    ]
+  }
 }
